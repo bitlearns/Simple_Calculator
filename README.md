@@ -10,4 +10,12 @@ lines of code:
        (comments will also be counted)
 for buttons seperate functions are used ...And the keywords are given according to the functions and buttons So these program pretty easy to know by urself by just gazing at the code
 
+.exe file:
+       Ive also attached an windows executable file in this repo. The package i used to create a .exe from .py file is Pyinstaller
+To install pyinstaller - pip3 install Pyinstaller
+
+usage-
+     pyinstaller -w -F -i icon_file_path example.py
+     (icon file must be of .ico file)
+
 Happy Coding ^_^
