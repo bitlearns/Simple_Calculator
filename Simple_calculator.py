@@ -1,15 +1,24 @@
-from tkinter import *
+#Before this correction there was 100+ problem but all problems are solved now.
+
+
+
+
+#Here i am importing tk,Button etc individually 
+from tkinter import Tk
+from tkinter import Button
+from tkinter import END
+from tkinter import Entry 
 
 root=Tk()
 root.title("Simple Calculator")
 
 #Creating Entry box In Top
-
-e=Entry(root,width=35,borderwidth=5)
+ 
+e=Entry(root,width=35,borderwidth=5) 
 e.grid(row=0 , column=0 , columnspan=5 ,padx=10 , pady=10)
 
 #Defining the Functions
-
+#Here we are defining c as e.delete so that any written no. can be delecte when we click on c button.
 def button_click(number):
     c=e.get()
     e.delete(0 , END)
@@ -110,3 +119,7 @@ b_div.grid(row=4 ,column=5)
 bi.grid(row=0 , column = 5)
 
 root.mainloop()
+
+
+#Now this code has 0 problem 
+#UtkarshVerma
